@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XScrollBar">
+        <attr name="android:orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <!-- 滑块颜色 -->
+        <attr name="slideViewColor" format="color"/>
+        <!-- 滑块宽度 -->
+        <attr name="slideViewWidth" format="dimension"/>
+        <!-- 滑块圆角半径 -->
+        <attr name="slideRadius" format="dimension"/>
+        <!-- 滑块高度 -->
+        <attr name="slideViewHeight" format="dimension"/>
+        <attr name="android:maxWidth" format="dimension"/>
+        <attr name="android:maxHeight" format="dimension"/>
+        <attr name="android:src" format="reference"/>
+    </declare-styleable>
+</resources>
